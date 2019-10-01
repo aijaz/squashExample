@@ -2,7 +2,7 @@
 
 mod front_of_house {
     pub mod hosting {
-        fn add_to_waitlist() {}
+        pub fn add_to_waitlist() {}
     }
 }
 
