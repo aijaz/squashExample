@@ -11,7 +11,7 @@ fn serve_order() {}
 mod back_of_house {
     pub struct Breakfast {
         pub toast: String,
-        seasonal_fruit: String,
+        pub seasonal_fruit: String,
     }
 
     impl Breakfast {
