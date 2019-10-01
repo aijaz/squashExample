@@ -21,8 +21,8 @@ pub fn eat_at_restaurant() {
     let mut meal = back_of_house::Breakfast { toast: "wheat".to_string(), seasonal_fruit: "blueberries".to_string() } ;
     println!("I'd like {} toast and {} please", meal.toast, meal.seasonal_fruit);
     meal.toast = String::from("rye");
-    meal.seasonal_fruit = String::from("peaches`");
-    println!("I'd like {} toast and {} please", meal.toast, meal.seasonal_fruit);
+    meal.seasonal_fruit = String::from("peaches");
+    println!("Actually, I'd like {} toast and {} please", meal.toast, meal.seasonal_fruit);
 
 }    
 
